@@ -8,14 +8,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>SEBx Afterwork</title>
-        <meta name="description" content="secret ninjas afterwork" />
+        <title>UNQUO Hackathon</title>
+        <meta name="description" content="UNQUO Hackathon" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <ReactRotatingText items={['Afterwork', 'Tonight', 'With SEBx']} />
+          <ReactRotatingText items={['November 25th', 'Hackathon', 'by UNQUO']} />
         </h1>
       </main>
 
