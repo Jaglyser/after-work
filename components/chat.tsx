@@ -21,7 +21,7 @@ export default function Chat() {
                 <Image src="/img/portrait.png" className="z-[1] relative self-end left-24 -top-12" alt="portrait" height={484} width={484} />
             </article>
             <div className="flex flex-wrap gap-6 pt-20">
-                {Array(8).fill(1).map((e, i) => <Image src={`/img/${i}.png`} alt="bild" height={368} width={282} />)}
+                {Array(8).fill(1).map((e, i) => <Image key={i} src={`/img/${i}.png`} alt="bild" height={368} width={282} />)}
             </div>
         </section>
     )
