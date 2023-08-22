@@ -10,7 +10,7 @@ export default function index() {
     return (
         <>
             <Header />
-            <Base>
+            <Base className="overflow-hidden">
                 <PurpleShape className="absolute -z-1 right-0" />
                 <Chat />
             </Base>

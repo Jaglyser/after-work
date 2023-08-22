@@ -1,5 +1,5 @@
 import Image from "next/image";
 
 export default function PurpleShape({ className }: any) {
-    return <Image src='/svgs/yellow-bg.svg' className={className} height={720} width={640} alt='background' />
+    return <Image src='/svgs/top_blob.svg' className={`${className} -top-28 !-right-20`} height={777} width={740} alt='background' />
 }

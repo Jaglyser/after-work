@@ -9,8 +9,8 @@ export default function index() {
     return (
         <>
             <Header />
-            <Base>
-                <PurpleShape className="absolute -z-1 right-0" />
+            <Base className="overflow-hidden">
+                <PurpleShape />
                 <Intro />
                 <Projects />
             </Base>
